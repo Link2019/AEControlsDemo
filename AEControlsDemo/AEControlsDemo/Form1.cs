@@ -241,8 +241,8 @@ namespace AEControlsDemo
             pTinLayer.Dataset = pTin;
             pTinLayer.Name = "TIN";
             //也可以用三维空间AxSceneControl加载
-            //axSceneControl1.Scene.AddLayer(pTinLayer, true);
-            this.axMapControl1.AddLayer(pTinLayer);
+            axSceneControl1.Scene.AddLayer(pTinLayer, true);
+            //this.axMapControl1.AddLayer(pTinLayer);
             this.Cursor = Cursors.Default;
 
         }

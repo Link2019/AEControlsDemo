@@ -137,8 +137,8 @@
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.axLicenseControl1);
-            this.tabPage1.Controls.Add(this.axMapControl1);
             this.tabPage1.Controls.Add(this.axSceneControl1);
+            this.tabPage1.Controls.Add(this.axMapControl1);
             this.tabPage1.Location = new System.Drawing.Point(4, 4);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
